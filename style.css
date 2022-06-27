@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.hero-image{
+    background-image: url("TaskImg/taskBackground.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text{
+    text-align: center;
+    font-size: 26px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    color: #fff;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    outline: none;
+    padding-bottom: 5px;
+}
+button{
+    background: #000000;
+    width: 100px;
+    border-radius: 30px;
+    outline: none;
+    color: #fff;
+    height: 30px;
+    border: rgb(0, 0, 0) solid 2px;
+    transition: background 0.2s linear;
+}
+.inputText button.active{
+    opacity: 1;
+    pointer-events: auto;
+}
+button:hover {
+  background-color: #fff;
+  color: rgb(8, 5, 5);
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.2s linear;
+}
