@@ -27,24 +27,6 @@ body, html {
     transform: translate(-50%, -50%);
     font-family: 'Montserrat', sans-serif;
 }
-.hero-image{
-    background-image: url("TaskImg/taskBackground.jpeg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-.hero-text{
-    text-align: center;
-    font-size: 2.5em;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(0, 0, 0);
-    color: rgb(0, 0, 0);
-}
 .input-row .input-group{
     flex-basis: 45%;
 }
